@@ -3,4 +3,4 @@
 This is repo of random snippets of Solidity code. 
 
 + MultiSigWallet.sol 
-+ OpenZeppelin usage samples 
++ OpenZeppelin usage sample token [Token.sol](token/contracts/Token.sol)
