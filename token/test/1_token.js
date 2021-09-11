@@ -47,7 +47,7 @@ const {
             const _failCap = (web3.utils.toWei('10000','ether'))
             await expectRevert(
             tokenInstance.setCap(_failCap, {from: owner}),
-            "setCap(): incorrect cap amount set, must be greater than zero"
+            "setCap(): must have CAPPER_ROLE to change cap"
             );
         })
 
